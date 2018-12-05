@@ -1,0 +1,115 @@
+
+.wrapper {
+    width: 1100px;
+    height: 1937px;
+    position: relative;
+    margin:0 auto;
+}
+
+
+.social__contact-name {
+
+        color: white;
+        font-family:Tahoma;
+        font-size: 13px;
+        position: relative;
+        left: 925.937px;
+        top: -49.22px;
+        z-index: 60;
+      }
+.footer__info {
+        font-size: 14px;
+        font-family:Tahoma;
+        font-family: "Roboto";
+        color: white;
+        line-height: 1.286;
+        position: relative;
+        left: 18.937px;
+        top: 7px;
+        width: 236px;
+        height: 50px;
+        z-index: 16;
+      }
+.header {
+    width: 1100px;
+    height: 77px;
+    background: #4b73b5;
+    margin: 0;
+    padding: 0;
+}
+.logo__imgr {
+    position: absolute;
+    left: 490px;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+}
+.logo {
+    position: absolute;
+    left: 21px;
+    margin: 0;
+    padding: 0;
+    top: 20px;
+    bottom: 1881px;
+    right: 
+}
+
+.header__contacts-phone {
+        position: relative;
+        font-style: normal;
+        font-family:Tahoma;
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        left: 945.924px;
+        top: 18px;
+      }
+      .header__contacts-button {
+            color: rgba( 255, 255, 255, 0.702 );
+            position: relative;
+            left: 965px;
+            top: 27.25px;
+            z-index: 94;
+            margin: 0px;
+          }
+          
+    .title {
+        position: relative;
+        margin: 0;
+        font-size: 45px;
+        left: 188px;
+        font-family:Tahoma;
+        top: -100px;
+    }
+
+      .header__contacts-phone34 {
+      width: 173px;
+      height: 22px;
+      color: #ffffff;
+      font-family: Roboto;
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 54px;
+      text-transform: uppercase;
+    }
+.main-img {
+    margin: 0px;
+    padding-top: 14px;
+    position: inherit;
+    top: -90px;
+    left: 187px;
+}
+
+.footer {
+    position: absolute;
+    width: 1100px;
+    height: 75px;
+    top: 1862px;
+    background: #4b73b5;
+    margin: 1px;
+    padding: 0px;
+    
+}
+      
+
+
