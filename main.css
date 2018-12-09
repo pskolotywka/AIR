@@ -3,6 +3,11 @@ body {
     margin: 0px;
 }
 
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
 .wrapper {
 
     
@@ -13,6 +18,7 @@ body {
     max-width: 1100px;
     margin: 0 auto;
     overflow: hidden;
+    
 }
 
 .header {
@@ -26,6 +32,7 @@ body {
 
 }
 
+
 .logo__img {
     margin: 0px;
     padding: 0px;
@@ -35,12 +42,10 @@ body {
     width: 48%;
     display: inline-block;
     text-align:right;
+    margin-top: 21px;
 
 }
 
-.main {
-    
-}
 
 li {
     list-style-type: none;
@@ -68,19 +73,195 @@ li {
     margin-right: 20px;
 }
 
+
+
 .sidebar {
     display: inline-block;
+    width: 150px;
+    vertical-align: top;
 }
+
+.menu {
+    display: inline-block;
+    width: 150px;
+    margin: 0;
+}
+
 
 .main-img {
     display: inline-block;
-    overflow: hidden;
-    margin-right: 0px;
-    text-align:right;
+    width: 1007px;
+    height: 299px;
+    margin-left: 188px;
+}
+
+.menu__icon-general {
+    display: inline-block;
+}
+
+.title-tariffs {
+    margin-left: 199px;
+}
+.tarrifs__list {
+    margin-left: 199px;
+}
+
+.title-tariffs {
+    width: 180px;
+height: 47px;
+color: #221f1f;
+font-family: Roboto;
+font-size: 49px;
+font-weight: 700;
+line-height: 38px;
+}
+
+.tarrifs__background-back {
+    margin-left: 87px;
+    margin-top: 41px;
+    width: 68px;
+    height: 68px;
+    background-color: #4b73b5;
+    border-radius: 50%;
+}
+
+.tariffs__icon {
+
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.tariffs__title {
+    width: 68px;
+height: 8px;
+color: #212121;
+font-size: 11px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2.88px;
+    margin-left: 80px;
+}
+
+.tariffs__item {
+    width: 32.50%;
+    height: 456px;
+    display: inline-block;
+}
+
+.tariffs__desc {
+    width: 720px;
+    height: 456px;
+}
+
+.tariffs__title-desc {
+
+color: #221f1f;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+text-align: center;
+}
+
+.tariffs_service {
+    text-align: center;
+
+}
+
+.tariffs__services-desc {
+    list-style-type: disc;
+
+}
+
+.tarrifs__price {
+    width: 73px;
+height: 40px;
+color: #212121;
+font-family: Roboto;
+font-size: 54px;
+font-weight: 400;
+color: #202020;
+line-height: 182.3px;
+letter-spacing: -1.07px;
+line-height: 173.58px;
+text-align: center;
+margin: 0px;
+margin-top: 0px;
+margin-left: 0px;
+}
+
+.title {
+    width: 450px;
+height: 43px;
+color: #221f1f;
+font-family: Roboto;
+font-size: 49px;
+font-weight: 700;
+line-height: 38px;
+margin-left: 202px;
+}
+
+.reviews__list {
+    margin-left: 197px;
+}
+ 
+.reviews__avatar {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-bottom: 62px;
+}
+
+.reviews__description {
+    
+    display: inline-block;
+    width: 644px;
+    height: 144px;
+    margin: 0px;
+    margin-bottom: 58px;
+    vertical-align: top;
+    margin-left: 20px;
+
+}
+
+.reviews__date {
+    color: #656464;
+font-family: "Roboto Light";
+font-size: 14px;
+font-weight: 300;
+line-height: 21px;
+margin: 0px;
+}
+
+.reviews__desc {
+    font-family: "Roboto - Bold";
+font-weight: 700;
+line-height: 21px;
+}
+
+.reviews__text {
+    font-family: "Roboto Light";
+font-weight: 300;
+line-height: 30px;
+}
+
+.pagination {
+    display: inline-block;
+    width: 400px;
 }
 
 
+.pagination__display {
+    display: inline-block;
+    width: 130px;
+}
 
-.menu__icon-general {
+.pagination__control {
+    display: inline-block;
+}
+
+li .pagination__item {
     display: inline-block;
 }
