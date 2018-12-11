@@ -86,6 +86,10 @@ li {
 .header__contacts-button {
     margin-top: 4px;
     margin-right: 20px;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 
@@ -327,18 +331,71 @@ line-height: 21px;
 font-weight: 300;
 line-height: 30px;
 }
-li ul .pagitaion {
+
+
+.paganation__item {
     display: inline-block;
     margin: 0px;
     vertical-align: middle;
-
+    margin-left: 16px;
+    width: 8px;
+color: #221f1f;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 700;
 }
+
+    .pagination__prev {
+        display: inline-block;
+        margin: 0px;
+        margin-left: 20px;
+
+    }
+
+    .pagination__next {
+        display: inline-block;
+        width: 50px;
+    }
+
+    .pagitation__controls {
+        display: inline-block;
+    }
+
+    .pagination__display  {
+        display: inline-block;
+        margin-left: 319px;
+        margin-bottom: 66px;
+        margin-top: 64px;
+        width: 120px;
+height: 13px;
+color: #656464;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 300;
+line-height: 21px;
+text-decoration: none;
+font-style: normal;
+    }
+
+    .paganation__list {
+        display: inline-block;
+        margin-bottom: 0px;
+        text-decoration: none;
+        font-style: normal;
+    }
+
+    .paganation__link {
+        display: inline-block;
+    }
+
 .pagination {
+    display: inline-block;
     text-align: center;
 }
 
 
 .footer {
+    margin-top: 64px;
     height: 77px;
     background-color: #4b73b5;
     margin: 0px;
@@ -350,16 +407,14 @@ li ul .pagitaion {
 
 .logo-foot {
     display: inline-block;
-    width: 25%;
     margin: 0px;
 }
 
 .logo__imgr {
     display: inline-block;
-    width: 25%;
     margin: 0px;
-    margin-left: 494px;
-    margin-top: 0px;
+    margin-left: 235px;
+    margin-top: 20px;
 
 }
 
@@ -368,6 +423,7 @@ li ul .pagitaion {
     width: 260px;
     margin: 0px;
     padding: 0px;
+    color: white;
     vertical-align: top;
     margin-left: 19px;
     margin-top: 14px;
@@ -375,31 +431,52 @@ li ul .pagitaion {
 }
 .social {
     display: inline-block;
-    width: 165px;
+    width: 20%;
+    margin-left: 232px;
+}
 
+.social__contacts-link {
+    display: inline-block;
 }
 
 .social__contact-name {
     display: inline-block;
-    width: 200px;
+    width: 100%;
     margin: 0px;
     vertical-align: top;
+    color: white;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.social__item {
+    display: inline-block;
+    margin: 0px;
     padding: 0px;
     margin-left: 0px;
     margin-top: 0px;
-}
-
-li .social__item {
-    display: inline-block;
-    width: 15px;
+    background-color:#ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 .social__img {
     display: inline-block;
-    width: 15px;
+    margin-left: 4px;
+    
 }
 
 .social__list {
     display: inline-block;
-    width: 140px;
+}
+
+.social__img-fb {
+        display: inline-block;
+        margin-left: 7px;
+        margin-top:
+
 }
