@@ -24,27 +24,23 @@ ul {
 }
 
 .logo {
-    margin: 0px;
-    width: 530px;
+    vertical-align:middle;
     display: inline-block;
-    margin-left: 21px;
-    margin-top: 21px;
+    margin-left: 20px;
+    margin-top: 20px;
 
 }
 
 
 .header__contacts {
-    vertical-align: middle;
+
     display: inline-block;
-    width: 300px;
     margin-left: 765px;
-    margin-top: 0px;
+    margin-top: 20px;
     text-align:right;
-    margin: 0px;
 }
 
 .header__contacts-phone{
-    margin: 0px;
     font-size: 21px;
     font-weight: 700;
     line-height: 0px;
@@ -67,3 +63,75 @@ ul {
         text-decoration: underline;
         color: rgba(255, 255, 255, 0.7);
     }
+
+    .sidebar {
+        width: 140px;
+        vertical-align: left;
+    }
+
+    nav .menu {
+        display: inline-block;
+    }
+
+   
+.menu__icon-general {
+    margin-top: 45px;
+    margin-left: 21px;
+}
+
+.menu__title-name-general {
+    vertical-align: middle;
+    margin-left: 19px;
+    margin-top: 50px;
+color: #221f1f;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 2.4px;
+text-transform: uppercase;
+}
+
+.menu__icon-reviews {
+    margin-top: 34px;
+    margin-left: 20px;
+    
+}
+
+.menu__title-name-reviews {
+    margin-left: 17px;
+    color: #4b73b5;
+    font-family: Tahoma;
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 2.4px;
+text-transform: uppercase;
+}
+
+.menu__icon-crew {
+    margin-top: 32px;
+    margin-left: 18px;
+}
+
+.menu__title-name-crew {
+    margin-left: 16px;
+    color: #4b73b5;
+    font-family: Tahoma;
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 2.4px;
+text-transform: uppercase;
+}
+
+.main-page {
+margin-left: 430px;
+display: inline-block;
+}
+
+
+
+
+
+
+.footer {
+
+}
