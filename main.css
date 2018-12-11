@@ -42,13 +42,16 @@ ul {
 }
 
 .logo {
-    width: 50%;
+    width: 530px;
     display:inline-block;
+    margin-left: 20px;
+    
 
 }
 
 
 .logo__img {
+
     margin: 0px;
     padding: 0px;
 }
@@ -64,6 +67,10 @@ ul {
 
 li {
     list-style-type: none;
+}
+
+.menu-link {
+    text-decoration: none;
 }
 
 .header__contacts-phone {
@@ -92,16 +99,6 @@ li {
     color: rgba(255, 255, 255, 0.7);
 }
 
-
-
-.sidebar {
-    display: inline-block;
-    width: 150px;
-    vertical-align: top;
-}
-
-
-
 main {
     width: 946px;
     display: inline-block;
@@ -118,6 +115,11 @@ main {
     margin-top: 14px;
 }
 
+.sidebar {
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+}
 
 .menu__icon-general {
     margin-top: 45px;
