@@ -26,55 +26,45 @@
                 </header>
             <div class="container">
                 <aside class="sidebar">
-                    
                         <nav class="menu">
                             <ul class="menu__list">
                                 <li class="menu__item">
-                                    <span class="menu__link ">
-                                        <div class="menu__general">
-                                                <img src="1.png" class="menu__icon-general">
+                                    <a href="#" class="menu__link ">
+                                                <span class="menu__icon-general"></span>
                                             <span class="menu__title-name-general">Главная</span>
-                                        </div>
-                                    </span>
+                                    </a>
                                 </li>
                                 <li class="menu__item">
-                                    <span class="menu__link menu__link_active">
-                                        <div class="menu__reviews">
-                                                <img src="2.png" class="menu__icon-reviews">
-                                            <span class="menu__title-name-reviews">Отзывы</span>
-                                        </div>
+                                                <span class="menu__icon-reviews"></span>
+                                            <span class="menu__title-name-reviews menu__title-name-reviews--active">Отзывы</span>
                                 </li>
                                 <li class="menu__item">
-                                    <span class="menu__link">
-                                        <div class="menu__crew">
-                                                <img src="3.png" class="menu__icon-crew">
+                                    <a href="#" class="menu__link">
+                                                <span class="menu__icon-crew"></span>
                                             <span class="menu__title-name-crew">Экипаж</span>
-                                        </div>
+                                            </a>
                                 </li>
                             </ul>
                         </nav>
                     
                     </aside>
                 <main class="main-page">
-                   
                     <div class="breadcrumbs">
-                        <a href="" class="breadcrumbs__link">
-                            <div class="breadcrumbs__link-general ">Главная</div>
-                        </a>
-                            <div class="breadcrumbs__link-separator">/</div>
-                            <div class="reviews reviews-active">Отзывы</div>
-                    </div>
-                        
-                    <ul class="reviews__list">
-                        <h2 class="reviews-title">Отзывы</h2>
-                            <li class="reviews__item">
-                                    <img src="../../" alt="avatar-user" class="reviews__avatar">
+                            <a href="index.html" class="breadcrumbs__link">Главная</a>
+                            <span class="breadcrumbs__link-separator">/</span>
+                            <span class="reviews reviews-active">Отзывы</span>
+                            </div>
+                            <section class="reviews">
+                            <h1 class="reviews-title">Отзывы</h1>
+                                <ul class="reviews__list">
+                                <li class="reviews__item">
+                                 <img src="../../" alt="avatar-user" class="reviews__avatar">
                                 <div class="reviews__description">
-                                    <div class="reviews__date">12.10.2016</div>
-                                    <div class="reviews__desc">Ночные перелёты дешевле!</div>
-                                    <p class="reviews__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem culpa unde provident 
+                                <div class="reviews__date">12.10.2016</div>
+                                <div class="reviews__desc">Ночные перелёты дешевле!</div>
+                                <p class="reviews__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem culpa unde provident 
                                         nesciunt necessitatibus beatae minima dolore, voluptatum alias magnam suscipit tempore recusandae aspernatur aliquam iure quisquam voluptates nulla cupiditate!
-                                    </p>
+                                </p>
                                 </div>
                             </li>
                             <li class="reviews__item">
@@ -109,9 +99,9 @@
                                 </div>
                             </li>
                         </ul>
-                    
+                    </section>
                 <div class="pagination">
-                            <div class="pagination__display">Страница 1 из 7</div>
+                            <span class="pagination__display">Страница 1 из 7</span>
                             <div class="pagitation__controls">
                                 <a href="#" class="pagination__prev"><</a>
                                 <ul class="paganation__list">
@@ -140,35 +130,37 @@
                                 <a href="#" class="pagination__next">></a>
                             </div>
                     </div>
+                </div>
                     <div class="section-info">
-                        <img src="#" class="main-backround"></img>
+                        <div class="main-img"></div>
                         <div class="main-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ipsum qui blanditiis obcaecati aspernatur 
                             exercitationem est, esse inventore. <a href="#" class="link-request"> Debitis beatae</a> esse nisi <a href="tel: +389483294827" class="link-phone">odit id accusamus</a>  assumenda incidunt, voluptates quibusdam odio!</div>
                         </div>
-                    <div class="section-insert">
-                    <h3 class="title-insert">Оставить отзыв</h3>
-                    <div class="name-input">
-                    <div class="name-insert">Ваше имя</div>
-                    <input type="text" placeholder="Введите имя">
+                        <div class="container">
+                    <form class="form">
+                    <h3 class="form__title">Оставить отзыв</h3>
+                    <div class="form__input">
+                    <label class="form__name">Ваше имя</label>
+                    <input type="text" placeholder="Введите имя" class="form__input-place">
                     </div>
-                    <div class="input-link">
-                    <div class="link-profile">Ссылка на профиль VK</div>
-                    <input type="text" placeholder="Ссылка на профиль VK">
+                    <div class="form__input">
+                    <label class="form__name">Ссылка на профиль VK</label>
+                    <input type="text" placeholder="Ссылка на профиль VK" class="form__input-place">
                     </div>
-                    <div class="input-reviews">
-                    <div class="inpet-reviews__title-input">Текст отзыва</div>
-                    <textarea type="text" placeholder="Мне понравилось"></textarea>
+                    <div class="form__reviews">
+                    <label class="form__reviews-text">Текст отзыва</label>
+                    <textarea type="text" placeholder="Мне понравилось" class="form__reviews-comment"></textarea>
                     </div>
-                    <div class="checkbox">
-                    <div class="checkbox__question">Отображать фото в отзыве</div>
-                    <input type="radio"> Да 
-                    <input type="radio"> Нет
+                    <div class="form__radio">
+                    <div class="form__question">Отображать фото в отзыве</div>
+                    <input type="radio" name="yesno"> Да 
+                    <input type="radio" name="yesno"> Нет
                     </div>
-                    <button type="button" class="button-input">Отправить</button>
+                    <button type="submit" class="form__button">Отправить</button>
+                    </form>
                 </div>
-                
                 </main>
-            </div>
+            
                 <div class="footer">
                         <div class="container">
                     <div class="footer__info">

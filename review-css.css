@@ -64,9 +64,10 @@ ul {
         color: rgba(255, 255, 255, 0.7);
     }
 
-    .sidebar {
+    aside {
+        display: inline-block;
         width: 140px;
-        vertical-align: left;
+        vertical-align: top;
     }
 
     nav .menu {
@@ -122,9 +123,20 @@ letter-spacing: 2.4px;
 text-transform: uppercase;
 }
 
-.main-page {
-margin-left: 430px;
+.menu__link {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.menu__link:hover {
+    color: black;
+    border: 2px solid black;
+}
+
+main {
+width: 800px;
 display: inline-block;
+margin-left: 76px;
 }
 
 
