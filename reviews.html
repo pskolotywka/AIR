@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="review-css.css">
+    <title>Отзывы</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="wrapper">
             <header class="header">
-                <div class="container">
+                <div class="container container_flex">
                     <div class="logo">
                 <a href="index.html" class="logo__img-link">
                     <img src="header_logo.png" alt="logo__img" class="logo__img">
@@ -24,30 +24,35 @@
                         </address>
                 </div>
                 </header>
-            <div class="container">
-                <aside class="sidebar">
-                        <nav class="menu">
-                            <ul class="menu__list">
-                                <li class="menu__item">
-                                    <a href="#" class="menu__link ">
-                                                <span class="menu__icon-general"></span>
-                                            <span class="menu__title-name-general">Главная</span>
-                                    </a>
-                                </li>
-                                <li class="menu__item">
-                                                <span class="menu__icon-reviews"></span>
-                                            <span class="menu__title-name-reviews menu__title-name-reviews--active">Отзывы</span>
-                                </li>
-                                <li class="menu__item">
-                                    <a href="#" class="menu__link">
-                                                <span class="menu__icon-crew"></span>
-                                            <span class="menu__title-name-crew">Экипаж</span>
+            <div class="container container_flex">
+                    <aside class="sidebar">
+                            <nav class="menu">
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                            <div class="menu__general">
+                                                <img src="1.png" class="menu__icon-general">
+                                                <span class="menu__title-name-general">Главная</span>
+                                            </div>
+                                    </li>
+                                    <li class="menu__item">
+                                            <div class="menu__reviews">
+                                                <a href="reviews.html" class="menu-link">
+                                                <img src="2.png" class="menu__icon-reviews">
+                                                <span class="menu__title-name-reviews">Отзывы</span>
                                             </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    
-                    </aside>
+                                            </div>
+                                    </li>
+                                    <li class="menu__item">
+                                            <div class="menu__crew">
+                                                <a href="#" class="menu-link">
+                                                <img src="3.png" class="menu__icon-crew">
+                                                <span class="menu__title-name-crew">Экипаж</span>
+                                                </a>
+                                            </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </aside>
                 <main class="main-page">
                     <div class="breadcrumbs">
                             <a href="index.html" class="breadcrumbs__link">Главная</a>
@@ -58,7 +63,7 @@
                             <h1 class="reviews-title">Отзывы</h1>
                                 <ul class="reviews__list">
                                 <li class="reviews__item">
-                                 <img src="../../" alt="avatar-user" class="reviews__avatar">
+                                 <img src="67.png" alt="avatar-user" class="reviews__avatar">
                                 <div class="reviews__description">
                                 <div class="reviews__date">12.10.2016</div>
                                 <div class="reviews__desc">Ночные перелёты дешевле!</div>
@@ -66,9 +71,10 @@
                                         nesciunt necessitatibus beatae minima dolore, voluptatum alias magnam suscipit tempore recusandae aspernatur aliquam iure quisquam voluptates nulla cupiditate!
                                 </p>
                                 </div>
+                                <hr class="line">
                             </li>
                             <li class="reviews__item">
-                                    <img src="../../" alt="avatar-user" class="reviews__avatar">
+                                    <img src="66.png" alt="avatar-user" class="reviews__avatar">
                                 <div class="reviews__description">
                                     <div class="reviews__date">01.02.2016</div>
                                     <div class="reviews__desc">Путешествие в Грузию стало доступнее!</div>
@@ -76,9 +82,10 @@
                                         illum architecto consequuntur repellendus quo sunt sint? Temporibus dolores recusandae, repudiandae ab fuga fugit sapiente fugiat aperiam et nihil?
                                     </p>
                                 </div>
+                                <hr class="line">
                             </li>
                             <li class="reviews__item">
-                                    <img src="../../" alt="avatar-user" class="reviews__avatar">
+                                    <img src="63.png" alt="avatar-user" class="reviews__avatar">
                                 <div class="reviews__description">
                                     <div class="reviews__date">22.12.2015</div>
                                     <div class="reviews__desc">Детские авиабилеты доступны для бизнес-класса!</div>
@@ -86,9 +93,10 @@
                                         nihil perspiciatis veniam temporibus illo, minima quisquam tempora voluptate vitae expedita iure, voluptatum neque eaque quos libero. Eligendi?
                                     </p>
                                 </div>
+                                <hr class="line">
                             </li>
                             <li class="reviews__item">
-                                    <img src="../../" alt="avatar-user" class="reviews__avatar">
+                                    <img src="65.png" alt="avatar-user" class="reviews__avatar">
                                 <div class="reviews__description">
                                     <div class="reviews__date">22.12.2015</div>
                                     <div class="reviews__desc">Детские авиабилеты доступны для бизнес-класса!</div>
@@ -97,6 +105,7 @@
                                         repudiandae expedita nemo.
                                     </p>
                                 </div>
+                                
                             </li>
                         </ul>
                     </section>
@@ -137,7 +146,7 @@
                             exercitationem est, esse inventore. <a href="#" class="link-request"> Debitis beatae</a> esse nisi <a href="tel: +389483294827" class="link-phone">odit id accusamus</a>  assumenda incidunt, voluptates quibusdam odio!</div>
                         </div>
                         <div class="container">
-                    <form class="form">
+                    <form action="#" class="form">
                     <h3 class="form__title">Оставить отзыв</h3>
                     <div class="form__input">
                     <label class="form__name">Ваше имя</label>
@@ -161,7 +170,7 @@
                 </div>
                 </main>
             
-                <div class="footer">
+                <footer class="footer">
                         <div class="container">
                     <div class="footer__info">
                         Сделано с любовью и старанием на курсе "HTML+CSS" в <a href="https://loftschool.com/" target="_blank" class="footer__link">LoftSchool.</a>
@@ -203,7 +212,7 @@
                                  </ul>
                              </div>
                          </div>
-                    </div>
+                </footer>
     </div>
     
 </body>

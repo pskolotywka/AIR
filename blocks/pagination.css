@@ -1,0 +1,83 @@
+
+.paganation__item {
+    display: inline-block;
+    margin: 0px;
+    vertical-align: middle;
+    margin-left: 13px;
+    width: 8px;
+    color: #221f1f;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+
+    .pagination__prev {
+        display: inline-block;
+        margin: 0px;
+        margin-left: 6px;
+        text-decoration: none;
+
+    }
+
+    .pagination__next {
+        display: inline-block;
+        width: 50px;
+        text-decoration: none;
+    }
+
+    .pagitation__controls {
+        display: inline-block;
+    }
+
+    .pagination__display  {
+        display: inline-block;
+        margin-left: 296px;
+        margin-bottom: 70px;
+        margin-top: 68px;
+        width: 120px;
+        height: 13px;
+        color: #656464;
+        font-family: Tahoma;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        text-decoration: none;
+        font-style: normal;
+    }
+
+    .paganation__list {
+        display: inline-block;
+        margin-bottom: 8px;
+        text-decoration: none;
+        font-style: normal;
+        margin-left: 5px;
+        vertical-align: middle;
+        
+    }
+
+    .paganation__link_active {
+        width: 25px;
+        height: 25px;
+        background-color: #4b73b5;;
+        border-radius: 4px;
+        vertical-align: middle;
+        padding-top: 3px;
+        padding-bottom: 6px;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-right: 4px;
+    }
+
+    .paganation__link {
+        text-decoration: none;
+        color: #221f1f;
+    }
+
+ 
+
+.pagination {
+    display: inline-block;
+    text-align: center;
+}

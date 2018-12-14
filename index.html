@@ -10,7 +10,7 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="container">
+            <div class="container container_flex">
             <div class="logo">
             <img src="header_logo.png" alt="logo__img" class="logo__img">
             </div>
@@ -27,27 +27,25 @@
                     <nav class="menu">
                         <ul class="menu__list">
                             <li class="menu__item">
-                                <span class="menu__link menu__link_active">
                                     <div class="menu__general">
-                                            <img src="1.png" class="menu__icon-general">
+                                        <img src="1.png" class="menu__icon-general">
                                         <span class="menu__title-name-general">Главная</span>
                                     </div>
-                                </span>
                             </li>
                             <li class="menu__item">
-                                <span class="menu__link">
                                     <div class="menu__reviews">
-                                            <img src="2.png" class="menu__icon-reviews">
                                         <a href="reviews.html" class="menu-link">
+                                        <img src="2.png" class="menu__icon-reviews">
                                         <span class="menu__title-name-reviews">Отзывы</span>
                                     </a>
                                     </div>
                             </li>
                             <li class="menu__item">
-                                <span class="menu__link">
                                     <div class="menu__crew">
-                                            <img src="3.png" class="menu__icon-crew">
+                                        <a href="#" class="menu-link">
+                                        <img src="3.png" class="menu__icon-crew">
                                         <span class="menu__title-name-crew">Экипаж</span>
+                                        </a>
                                     </div>
                             </li>
                         </ul>
@@ -74,7 +72,7 @@
                                     </ul>
                                         <h2 class="tarrifs__price">$19</h2>
                             </li>
-                            <li class="tariffs__item">
+                            <li class="tariffs__item tariffs__item_premium">
                                     <div class="tarrifs__background-back">
                                     <img src="6.png" alt="picture" class="tariffs__icon-premium">
                                     </div>
@@ -88,7 +86,7 @@
                                         <h2 class="tarrifs__price">$39</h2>
                             </li>
                             <li class="tariffs__item">
-                                <div class="tarrifs__background-back">
+                                <div class="tarrifs__background-back tarrifs__background-back_luxury">
                                     <img src="7.png" alt="picture" class="tariffs__icon">
                                 </div>
                                         <h3 class="tariffs__title">Лакшери</h3>
@@ -117,6 +115,7 @@
                             </p>
                         </div>
                     </li>
+                    <hr class="line">
                     <li class="reviews__item">
                             <img src="rocks.png" alt="avatar-user" class="reviews__avatar">
                         <div class="reviews__description">
@@ -128,6 +127,7 @@
                             </p>
                         </div>
                     </li>
+                    <hr class="line">
                     <li class="reviews__item">
                             <img src="kid.png" alt="avatar-user" class="reviews__avatar">
                         <div class="reviews__description">
@@ -139,6 +139,7 @@
                             </p>
                         </div>
                     </li>
+                    
                 </ul>
                 <div class="pagination">
                     <div class="pagination__display">Страница 1 из 7</div>
@@ -146,7 +147,7 @@
                         <a href="#" class="pagination__prev"><</a>
                         <ul class="paganation__list">
                             <li class="paganation__item">
-                                <a href="#" class="paganation__link">1</a>
+                                <a href="#" class="paganation__link paganation__link_active">1</a>
                             </li>
                             <li class="paganation__item">
                                     <a href="#" class="paganation__link">2</a>
