@@ -26,7 +26,7 @@
     display: inline-block;
     margin: 0px;
     margin-left: 231px;
-    margin-top: -28px;
+    margin-top: -24px;
     vertical-align: middle;
 
 }
@@ -40,9 +40,9 @@
     color: white;
     vertical-align: top;
     margin-left: 8px;
-    margin-top: 13px;
-    letter-spacing: 0.2px;
-    line-height: 17px;
+    margin-top: 12px;
+    letter-spacing: -0.3px;
+    line-height: 18px;
     font-weight: 300;
 
 }
@@ -59,14 +59,16 @@
 }
 
 .social__contact-name {
-    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
     display: inline-block;
     width: 100%;
     margin: 0px;
     color: white;
     padding: 0px;
-    margin-left: -4px;
-    margin-top: 18px;
+    margin-left: 0px;
+    margin-top: 17px;
     margin-bottom: 6px;
 }
 

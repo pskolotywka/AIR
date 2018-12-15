@@ -75,7 +75,8 @@ letter-spacing: 1.88px;
 }
 
 .tariffs__title-desc {
-    width: 100%;
+    width: 104%;
+    height: 57px;
 margin-top: 22px;
 margin-left: 28px;
 color: #221f1f;
@@ -93,15 +94,14 @@ text-align: center;
 
 .tariffs__services-desc {
     width: 100%;
-    margin-top: 5px;
-    margin-left: 50px;
-    font-family: Roboto;
+    margin-top: 10px;
+    margin-left: 49px;
+    font-family: "Roboto", sans-serif;
     font-size: 19px;
     list-style-type: disc;
     text-align: left;
-
-    line-height: 30px;
-
+    line-height: 25px;
+    letter-spacing: -0.6px;
 }
 
 .tarrifs__price {
@@ -115,6 +115,6 @@ letter-spacing: -1.07px;
 line-height: 173.58px;
 text-align: center;
 margin: 0px;
-margin-top: -38px;
+margin-top: -34px;
 margin-left: 51px;
 }

@@ -74,14 +74,16 @@
     font-style: normal;
     font-weight: 700;
     line-height: 21px;
-    font-size: 17px;
-    margin-top: 2px;
+    font-size: 18px;
+    margin-top: 0px;
+    letter-spacing: -0.4px;
 }
 
 .reviews__text {
     font-family: "Robotolight", sans-serif;
     font-style: normal;
-    font-size: 18px;
+    font-size: 17px;
+    width: 694px;
     margin: 0px;
     padding: 0px;
     font-weight: 300;

@@ -18,7 +18,7 @@ main {
     height: 170px;
     width: 100%;
     background-color: #4bb56b;
-    background-image: url('../9.png') center center no-repeat;
+    background-image: url('../9.png');
     margin-top: 0px;
     margin-left: 0px;
 }
