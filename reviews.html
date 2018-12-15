@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1100">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Отзывы</title>
     <link rel="stylesheet" href="main.css">
@@ -142,30 +142,37 @@
                 </div>
                     <div class="section-info">
                         <div class="main-img"></div>
-                        <div class="main-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ipsum qui blanditiis obcaecati aspernatur 
-                            exercitationem est, esse inventore. <a href="#" class="link-request"> Debitis beatae</a> esse nisi <a href="tel: +389483294827" class="link-phone">odit id accusamus</a>  assumenda incidunt, voluptates quibusdam odio!</div>
+                        <div class="container">
+                        <div class="main-info"> Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого можно
+                             оставить  <a href="#" class="link-request"> заявку на сайте </a> или же позвонить по номеру 
+                             круглосуточной поддержки  <a href="tel: +389483294827" class="link-phone">8 (800) 00-392-10</a>  .</div>
                         </div>
+                    </div>
                         <div class="container">
                     <form action="#" class="form">
                     <h3 class="form__title">Оставить отзыв</h3>
+                        <div class="container_flex-form">
                     <div class="form__input">
                     <label class="form__name">Ваше имя</label>
-                    <input type="text" placeholder="Введите имя" class="form__input-place">
+                    <input type="text" placeholder="Андрей" class="form__input-place">
                     </div>
                     <div class="form__input">
                     <label class="form__name">Ссылка на профиль VK</label>
-                    <input type="text" placeholder="Ссылка на профиль VK" class="form__input-place">
+                    <input type="text" placeholder="vk.com/example" class="form__input-place">
                     </div>
+                        </div>
                     <div class="form__reviews">
                     <label class="form__reviews-text">Текст отзыва</label>
                     <textarea type="text" placeholder="Мне понравилось" class="form__reviews-comment"></textarea>
                     </div>
+                        <div class="container_flex-form">
                     <div class="form__radio">
                     <div class="form__question">Отображать фото в отзыве</div>
-                    <input type="radio" name="yesno"> Да 
-                    <input type="radio" name="yesno"> Нет
+                    <input type="radio" name="yesno" class="form__radio-button"> Да
+                    <input type="radio" name="yesno" class="form__radio-button"> Нет
                     </div>
                     <button type="submit" class="form__button">Отправить</button>
+                        </div>
                     </form>
                 </div>
                 </main>

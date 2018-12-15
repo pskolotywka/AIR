@@ -11,8 +11,10 @@
 }
 
 .footer__link {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
+    font-weight: 700;
+    
 }
 
 .logo-foot {
@@ -23,7 +25,7 @@
 .logo__imgr {
     display: inline-block;
     margin: 0px;
-    margin-left: 207px;
+    margin-left: 231px;
     margin-top: -28px;
     vertical-align: middle;
 
@@ -31,14 +33,17 @@
 
 .footer__info {
     display: inline-block;
-    width: 260px;
+    font-size: 14px;
+    width: 236px;
     margin: 0px;
     padding: 0px;
     color: white;
     vertical-align: top;
     margin-left: 8px;
-    margin-top: 11px;
-  
+    margin-top: 13px;
+    letter-spacing: 0.2px;
+    line-height: 17px;
+    font-weight: 300;
 
 }
 .social {

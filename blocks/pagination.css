@@ -89,4 +89,9 @@
 .pagination--reviews {
     margin-left: -49px;
     margin-top: -13px;
+    margin-bottom: 5px;
+}
+
+.main-info {
+    width: 640px;
 }

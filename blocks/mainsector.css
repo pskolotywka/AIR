@@ -8,11 +8,48 @@ main {
 
 
 
+
+
+
+
+
 .main-img {
-    display: inline-block;
-    width: 1007px;
+    position: relative;
     margin: 0px;
-    margin-left: 34px;
-    margin-top: 14px;
+    height: 170px;
+    width: 100%;
+    background-color:#4bb56b;
+    background-image: url('../9.png') center center no-repeat;
+    margin-top: 0px;
+    margin-left: 0px;
+
 }
 
+.main-info {
+    position: absolute;
+    width: 621px;
+    height: 79px;
+    color:white;
+    font-family: "Robotolight", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 218px;
+    margin-top: -130px;
+    z-index: 2;
+    line-height: 30px;
+    margin-bottom: 0px;
+    letter-spacing: 0.5px;
+}
+
+.link-request {
+    font-family: "Roboto - Bold", sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    color: white;
+}
+
+.link-phone { 
+    font-family: "Roboto - Bold", sans-serif;
+    font-weight: 700;
+    color: white;
+}
