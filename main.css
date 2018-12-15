@@ -1,7 +1,6 @@
 
-
-@import url('./blocks/header.css');
 @import url('./blocks/fonts.css');
+@import url('./blocks/header.css');
 @import url('./blocks/base.css');
 @import url('./blocks/sidebar.css');
 @import url('./blocks/mainsector.css');

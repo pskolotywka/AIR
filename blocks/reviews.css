@@ -1,13 +1,23 @@
 
+.reviews {
+    color: #221f1f;
+    font-family: "Tahoma", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: italic;
+    }
+    
+
 .title {
     width: 600px;
     height: 43px;
     color: #221f1f;
-    font-family: Roboto;
-    font-size: 52px;
+    font-family: "Roboto", sans-serif;
+    font-size: 46px;
     font-weight: 700;
     line-height: 38px;
-    margin-left: 30px;
+    margin-left: 35px;
     margin-top: 57px;
     margin-bottom: 74px;
     }
@@ -51,24 +61,27 @@
 
 .reviews__date {
     color: #656464;
-    font-family: "Roboto Light";
-    font-size: 15px;
+    font-family: "RobotoLight", sans-serif;
+    font-style: normal;
+    font-size: 14px;
     font-weight: 300;
     line-height: 21px;
     margin: 0px;
    }
 
 .reviews__desc {
-    font-family: "Roboto - Bold";
+    font-family: "Robotobold", sans-serif;
+    font-style: normal;
     font-weight: 700;
     line-height: 21px;
-    font-size: 19px;
+    font-size: 17px;
     margin-top: 2px;
 }
 
 .reviews__text {
-    font-family: "Roboto Light";
-    font-size: 19px;
+    font-family: "Robotolight", sans-serif;
+    font-style: normal;
+    font-size: 18px;
     margin: 0px;
     padding: 0px;
     font-weight: 300;

@@ -11,6 +11,8 @@
     font-weight: 700;
     font-style: normal;
     text-decoration: none;
+    margin-right: 2px;
+    margin-top: 3px;
 }
 
     .pagination__prev {
@@ -18,6 +20,7 @@
         margin: 0px;
         margin-left: 6px;
         text-decoration: none;
+        color: gray
 
     }
 
@@ -25,6 +28,7 @@
         display: inline-block;
         width: 50px;
         text-decoration: none;
+        color: gray;
     }
 
     .pagitation__controls {
@@ -52,7 +56,7 @@
         margin-bottom: 8px;
         text-decoration: none;
         font-style: normal;
-        margin-left: 5px;
+        margin-left: -7px;
         vertical-align: middle;
         
     }
@@ -80,4 +84,9 @@
 .pagination {
     display: inline-block;
     text-align: center;
+}
+
+.pagination--reviews {
+    margin-left: -49px;
+    margin-top: -13px;
 }

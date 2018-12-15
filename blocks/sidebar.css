@@ -12,6 +12,10 @@
 
 }
 
+.menu__item:hover {
+    color: black;
+}
+
 span {
     display: inline-block;
 }
