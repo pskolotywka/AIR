@@ -16,14 +16,23 @@ main {
 .main-img {
     position: relative;
     margin: 0px;
+    
+    margin-top: 14px;
+    margin-left: 34px;
+
+}
+
+.main-img-reviews {
+    position: relative;
+    margin: 0px;
     height: 170px;
     width: 100%;
-    background-color:#4bb56b;
+    background-color: #4bb56b;
     background-image: url('../9.png') center center no-repeat;
     margin-top: 0px;
     margin-left: 0px;
-
 }
+
 
 .main-info {
     position: absolute;
