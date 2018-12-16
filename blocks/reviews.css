@@ -23,7 +23,7 @@
     }
 
 .reviews__list {
-    margin-left: 197px;
+    margin-left: 0px;
 }
  
 .reviews__avatar {
@@ -33,7 +33,7 @@
     border-radius: 50%;
     margin-bottom: 62px;
     margin: 0px;
-    margin-left: -166px
+    margin-left: 32px
 }
 
 .line {

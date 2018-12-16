@@ -38,14 +38,16 @@
                                     </li>
                                     <li class="menu__item">
                                             <div class="menu__reviews">
+                                                <span class="menu-link">
                                                 <span class="menu__icon-reviews_active"></span> 
                                                 <span class="menu__title-name-reviews_active">Отзывы</span>
+                                            </span>
                                             </div>
                                     </li>
                                     <li class="menu__item">
                                             <div class="menu__crew">
                                                 <a href="team.html" class="menu-link">
-                                                <span src="3.png" class="menu__icon-crew"></span>
+                                                <span class="menu__icon-crew"></span>
                                                 <span class="menu__title-name-crew">Экипаж</span>
                                                 </a>
                                             </div>
@@ -164,8 +166,15 @@
                         <div class="container_flex-form">
                     <div class="form__radio">
                     <div class="form__question">Отображать фото в отзыве</div>
-                    <input type="radio" name="yesno" class="form__radio-button"> Да
-                    <input type="radio" name="yesno" class="form__radio-button"> Нет
+                        <label class="radioform__radio-box" tabindex="0">
+                            <input type="radio" name="yesno" velue="no" class="radioform__button">
+                            <span class="radioform__radio-name"><span class="radioform__radio-name-custom">Да</span></span>
+                        </label>
+
+                        <label class="radioform__radio-box" tabindex="0">
+                            <input type="radio" name="yesno" velue="no" class="radioform__button">
+                            <span class="radioform__radio-name"><span class="radioform__radio-name-custom">Нет</span></span>
+                        </label>
                     </div>
                     <button type="submit" class="form__button">Отправить</button>
                         </div>
