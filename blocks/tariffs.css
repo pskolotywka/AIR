@@ -1,11 +1,12 @@
 .title-tariffs {
     margin: 0px;
     margin-left: 32px;
-    margin-top: 11px;
+    margin-top: 13px;
     
 }
 .tarrifs__list {
     display: flex;
+    width: 1007px;
     margin-left: 39px;
     margin-top: 29px;
 }
@@ -16,9 +17,8 @@
 
 .title-tariffs {
     width: 180px;
-height: 47px;
 color: #221f1f;
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 49px;
 font-weight: 700;
 line-height: 38px;
@@ -45,6 +45,8 @@ line-height: 38px;
 
 }
 
+
+
 .tariffs__icon {
 
     margin-left: 20px;
@@ -53,38 +55,63 @@ line-height: 38px;
 
 .tariffs__title {
     width: 68px;
-    height: 8px ;
-color: #212121;
-font-size: 11px;
-font-weight: 700;
-text-transform: uppercase;
-letter-spacing: 1.88px;
-    margin-left: 86px;
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.88px;
+    margin-left: 92px;
+    margin-top: 32px;
+}
+
+.tariffs__title-standart {
+    margin-left: 85px;
+    margin-top: 34px;
+}
+
+.tariffs__title-premium {
+    margin-left: 90px;
     margin-top: 32px;
 }
 
 .tariffs__item {
-    width: 32.50%;
-    height: 456px;
+    min-width: 250px;
     display: inline-block;
+    margin-right: 16px;
+}
+
+.tariffs__item:last-child {
+    margin-right: 0px;
+}
+
+.tariffs__item_premium {
+    width: 250px;
+    height: 456px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+
+}
+
+.tarrifs__background-back_luxury{
+    margin-left: 92px;
+    margin-top: 41px;
 }
 
 .tariffs__desc {
     width: 720px;
-    height: 456px;
+    margin-top: 7px;
 }
 
 .tariffs__title-desc {
     width: 104%;
-    height: 57px;
-margin-top: 22px;
-margin-left: 28px;
-color: #221f1f;
-font-family: Roboto;
-font-size: 18px;
-font-weight: 300;
-line-height: 30px;
-text-align: center;
+    margin-top: 18px;
+    color: #221f1f;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
 }
 
 .tariffs_service {
@@ -94,7 +121,7 @@ text-align: center;
 
 .tariffs__services-desc {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 9px;
     margin-left: 49px;
     font-family: "Roboto", sans-serif;
     font-size: 19px;
@@ -116,5 +143,5 @@ line-height: 173.58px;
 text-align: center;
 margin: 0px;
 margin-top: -34px;
-margin-left: 51px;
+margin-left: -11px;
 }

@@ -1,0 +1,128 @@
+
+
+
+.team__avatar {
+    width: 163px;
+    height: 163px;
+    border-radius: 50%;
+    margin-left: 49px;
+    margin-top: 0px;
+}
+
+.team__item-name {
+    margin: 0px;
+    width: 93px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-top: -97px;
+    margin-left: 84px;
+    margin-bottom: 87px;
+}
+
+.team__discription {
+    margin: 0px;
+    width: 257px;
+    color: #221f1f;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+}
+
+.team__name {
+    margin: 0px;
+    font-family: "RobotoBold", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.team__name-desc {
+    margin: 0px;
+    color: #4b73b5;
+    font-family: "RobotoBold", sans-serif;
+    font-weight: 700;
+}
+
+.team__item-description {
+    font-family: "RobotoLight", sans-serif;
+    font-weight: 300;
+    margin-top: 7px;
+    margin-bottom: 43px;
+}
+
+.company {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.company__logo {
+    margin-right: 0px;
+    width: 100%;
+}
+
+.company__logo:last-child {
+    margin-right: 0px;
+}
+
+.company-logo1 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 94px;
+    margin-top: 21px;
+}
+
+.company-logo2 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 140px;
+    margin-top: 3px;
+}
+
+.company-logo3 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 154px;
+    margin-top: 4px;
+}
+
+.company-logo4 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 104px;
+    margin-top: 60px;
+}
+.company-logo5 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 206px;
+    margin-top: 60px;
+}
+.company-logo6 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 237px;
+    margin-top: 60px;
+    margin-bottom: 94px;
+}
+
+.company__logo {
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray;
+      }
+
+      .company__logo:hover {
+        -webkit-filter: none;
+        -moz-filter: none;
+        -ms-filter: none;
+        -o-filter: none;
+        filter: none;
+        filter: none;
+      }

@@ -18,7 +18,23 @@ margin-bottom: 59px;
     font-weight: 700;
     line-height: 38px;
     margin-left: 33px;
-    margin-top: 59px;
+    margin-top: 38px;
     margin-bottom: 74px;
 }
-}
+ .title-crew{
+    width: 180px;
+    color: #221f1f;
+    font-family: "Roboto", sans-serif;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 31px;
+    margin-top: 26px;
+    margin-bottom: 46px;
+ }
+  .title-crew--active {
+    margin-left: 32px;
+    margin-top: 4px;
+  }

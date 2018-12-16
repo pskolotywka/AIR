@@ -21,11 +21,37 @@ span {
 }
 
 .menu__icon-general {
+    width: 17px;
+    height: 18px;
+    background-image: url('../456.png');
     margin-top: 46px;
     margin-left: 10px;
 }
 
+.menu__icon-general_active {
+    width: 17px;
+    height: 18px;
+    background-image: url('../1.png');
+    margin-top: 46px;
+    margin-left: 10px;
+}
+
+
+
 .menu__title-name-general {
+    display: inline-block;
+    margin-top: -11px;
+    margin-left: 13px;
+    color: #4b73b5;
+    font-family: "Tahoma";
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.menu__title-name-general_active {
     display: inline-block;
     margin-top: -11px;
     margin-left: 13px;
@@ -39,9 +65,21 @@ span {
 }
 
 .menu__icon-reviews {
+    width: 20px;
+    height: 18px;
+    background-image: url('../2.png');
     margin-top: 26px;
     margin-left: 8px;
     
+}
+
+.menu__icon-reviews_active {
+    width: 20px;
+    height: 18px;
+    background-image: url('../567.png');
+    color: black;
+    margin-top: 26px;
+    margin-left: 8px;
 }
 
 .menu__link_active {
@@ -57,9 +95,23 @@ span {
     vertical-align: top;
     display: inline-block;
     margin-top: 27px;
-    margin-left: 11px;
+    margin-left: 15px;
     color: #4b73b5;
-    font-family: Tahoma;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    
+}
+
+.menu__title-name-reviews_active  {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 27px;
+    margin-left: 19px;
+    color: black;
+    font-family: "Roboto", sans-serif;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2.4px;
@@ -71,26 +123,46 @@ span {
 }
 
 .menu__icon-crew {
-    margin-top: 28px;
+    width: 23px;
+    height: 18px;
+    background-image: url('../3.png');
+    margin-top: 30px;
+    margin-left: 7px;
+}
+ 
+.menu__icon-crew_active {
+    width: 23px;
+    height: 18px;
+    background-image: url('../crew-icon.png');
+    margin-top: 30px;
     margin-left: 7px;
 }
 
-.tariffs__item_premium{
-    margin-left: 88px;
-    margin-right: 90px;
-}
 
 .menu__title-name-crew {
     display: inline-block;
-    margin-left: 10px;
-    margin-top: -13px;
+    margin-left: 11px;
+    margin-top: -7px;
     color: #4b73b5;
-    font-family: Tahoma;
-font-size: 12px;
-font-weight: 700;
-letter-spacing: 2.4px;
-text-transform: uppercase;
-vertical-align: middle;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.menu__title-name-crew_active {
+    display: inline-block;
+    margin-left: 11px;
+    margin-top: -7px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    vertical-align: middle;
 }
 
 .menu-link {

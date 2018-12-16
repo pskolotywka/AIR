@@ -52,3 +52,14 @@ main {
     font-weight: 700;
     color: white;
 }
+
+.team__list {
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team__item {
+    width: 257px;
+    margin-left: 43px;
+}

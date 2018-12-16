@@ -6,14 +6,28 @@
     margin-left: 13px;
     width: 8px;
     color: #221f1f;
-    font-family: Tahoma;
+    font-family: "roboto", sans-serif;
     font-size: 14px;
     font-weight: 700;
     font-style: normal;
     text-decoration: none;
-    margin-right: 2px;
     margin-top: 3px;
 }
+
+.paganation__item-active {
+    width: 25px;
+    height: 25px;
+    background-color: #4b73b5;;
+    border-radius: 4px;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: -3px;
+    padding-left: 2px;
+    padding-right: -8px;
+    margin-right: -10px;
+}
+
+
 
     .pagination__prev {
         display: inline-block;
@@ -61,22 +75,17 @@
         
     }
 
-    .paganation__link_active {
-        width: 25px;
-        height: 25px;
-        background-color: #4b73b5;;
-        border-radius: 4px;
-        vertical-align: middle;
-        padding-top: 3px;
-        padding-bottom: 6px;
-        padding-left: 8px;
-        padding-right: 8px;
-        margin-right: 4px;
-    }
+    
+    
 
     .paganation__link {
         text-decoration: none;
         color: #221f1f;
+    }
+
+    .paganation__link:hover {
+        text-decoration: none;
+        color: #4b73b5;
     }
 
  

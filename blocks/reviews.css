@@ -37,7 +37,10 @@
 }
 
 .line {
-        width: 877px;
+    width: 877px;
+    height: 1px;
+    color: #656464;
+    background-color: gray;
     margin-left: -164px;
     height: 1px;
     margin: 0px;
