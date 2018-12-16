@@ -83,6 +83,11 @@
         color: #221f1f;
     }
 
+    .paganation__link_active{
+        text-decoration: none;
+        color: #221f1f;
+    }
+
     .paganation__link:hover {
         text-decoration: none;
         color: #4b73b5;
