@@ -160,6 +160,7 @@
         -o-filter: grayscale(100%);
         filter: grayscale(100%);
         filter: gray;
+        transition-duration: 1s;
       }
 
       .company__logo:hover {
