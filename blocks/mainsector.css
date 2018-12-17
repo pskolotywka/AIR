@@ -25,19 +25,17 @@ main {
 
 
 .main-info {
-    position: absolute;
     width: 621px;
-    height: 79px;
     color:white;
     font-family: "Robotolight", sans-serif;
     font-size: 17px;
     font-weight: 300;
-    margin-left: 218px;
-    margin-top: 41px;
     z-index: 2;
     line-height: 30px;
-    margin-bottom: 0px;
     letter-spacing: 0.5px;
+    padding: 41px;
+    padding-left: 219px;
+
 }
 
 .link-request {

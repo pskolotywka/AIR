@@ -98,60 +98,45 @@
     margin-bottom: 43px;
 }
 
+
+
+
 .company {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 31px;
+    margin-bottom: 36px;
+
 }
+
+.company-logo {
+    width: 165px;
+    margin-left: 66px;
+    margin-right: 70px;
+    margin-bottom: 59px;
+}
+
+.company-logo:nth-child(5) {
+    margin-left:111px;
+}
+
+.company-logo:last-child {
+    margin-right: 0px;
+
+}
+
+
 
 .company__logo {
     margin-right: 0px;
-    width: 100%;
 }
 
-.company__logo:last-child {
-    margin-right: 0px;
-}
 
-.company-logo1 {
-    margin: 0px;
-    padding: 0px;
-    margin-left: 94px;
-    margin-top: 21px;
-}
 
-.company-logo2 {
-    margin: 0px;
-    padding: 0px;
-    margin-left: 140px;
-    margin-top: 3px;
-}
 
-.company-logo3 {
-    margin: 0px;
-    padding: 0px;
-    margin-left: 154px;
-    margin-top: 4px;
-}
 
-.company-logo4 {
-    margin: 0px;
-    padding: 0px;
-    margin-left: 104px;
-    margin-top: 60px;
-}
-.company-logo5 {
-    margin: 0px;
-    padding: 0px;
-    margin-left: 206px;
-    margin-top: 60px;
-}
-.company-logo6 {
-    margin: 0px;
-    padding: 0px;
-    margin-left: 237px;
-    margin-top: 60px;
-    margin-bottom: 94px;
-}
 
 .company__logo {
         -webkit-filter: grayscale(100%);
