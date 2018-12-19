@@ -1,0 +1,67 @@
+.social {
+    display: inline-block;
+    width: 165px;
+    margin-right: 22px;
+    font-family: "robotolight";
+    font-style: normal;
+    margin-left: 73px;
+    margin-top: 10px;
+}
+
+.social--reviews {
+    margin-left: 63px;
+}
+
+.social__contacts-link {
+    display: inline-block;
+}
+
+.social__contact-name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    color: black;
+    padding: 0px;
+    margin-left: -4px;
+    margin-top: 17px;
+    margin-bottom: 6px;
+}
+
+.social__item {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color:#ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 6px;
+    vertical-align: middle;
+    
+}
+
+.social__item--active {
+    opacity: 0.7;
+}
+
+.social__img {
+    display: inline-block;
+    margin-left: 4px;
+    
+}
+
+.social__list {
+    display: inline-block;
+}
+
+.social__img-fb {
+        display: inline-block;
+        margin-left: 7px;
+        vertical-align: middle;
+
+}

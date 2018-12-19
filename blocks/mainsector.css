@@ -1,40 +1,43 @@
 
 main {
-    width: 946px;
+    width: 886px;
     display: inline-block;
+    margin-right: 37px;
 }
 
 .main-img {
     position: relative;
     margin: 0px;
-    margin-top: 14px;
-    margin-left: 34px;
+    margin-top: 6px;
+    margin-left: 26px;
 
 }
 
 .section-info {
     position: relative;
-    margin: 0px;
-    height: 170px;
-    width: 100%;
-    background-color: #4bb56b;
+    width: 274px;
+    height: 287px;
+    background-color: #4b73b5;
     background-image: url('../9.png');
-    margin-top: 0px;
-    margin-left: 0px;
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 10px;
+
 }
 
 
 .main-info {
-    width: 621px;
-    color:white;
-    font-family: "Robotolight", sans-serif;
-    font-size: 17px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
     font-weight: 300;
-    z-index: 2;
     line-height: 30px;
-    letter-spacing: 0.5px;
-    padding: 41px;
-    padding-left: 219px;
+    margin-left: 8px;
+    margin-top: 23px;
+    text-align: center;
+    width: 260px;
+    margin-bottom: 24px;
+
 
 }
 
