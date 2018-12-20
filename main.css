@@ -5,7 +5,7 @@
 @import url('./blocks/sidebar.css');
 @import url('./blocks/mainsector.css');
 @import url('./blocks/tariffs.css');
-@import url('./blocks/reviews.css');
+@import url('./blocks/news.css');
 @import url('./blocks/pagination.css');
 @import url('./blocks/footer.css');
 @import url('./blocks/breadcrumbs.css');
@@ -13,10 +13,12 @@
 @import url('./blocks/form.css');
 @import url('./blocks/team.css');
 @import url('./blocks/intro.css');
+@import url('./blocks/social.css');
+@import url('./blocks/reviews.css');
 
 
 .container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
     

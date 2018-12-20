@@ -7,9 +7,9 @@ font-size: 47px;
 font-weight: 700;
 font-style: normal;
 text-decoration: none;
-margin-left: 32px;
-margin-top: 35px;
-margin-bottom: 59px;
+margin-left: 21px;
+margin-top: 28px;
+margin-bottom: 57px;
 }
 
 .title {
@@ -17,25 +17,31 @@ margin-bottom: 59px;
     font-size: 49px;
     font-weight: 700;
     line-height: 38px;
-    margin-left: 33px;
-    margin-top: 38px;
-    margin-bottom: 74px;
+    margin-left: 27px;
+    margin-top: 14px;
+    margin-bottom: 42px;
 }
  .title-crew{
-    width: 180px;
+    width: 182px;
+    height: 35px;
     color: #221f1f;
     font-family: "Roboto", sans-serif;
     font-size: 49px;
     font-weight: 700;
-    line-height: 38px;
-    margin: 0px;
-    padding: 0px;
-    margin-left: 31px;
-    margin-top: 26px;
-    margin-bottom: 44px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 58px;
  }
+
+
   .title-crew--active {
-    margin-left: 32px;
-    margin-top: 4px;
-    margin-bottom: 49px;
+    color: #221f1f;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-left: 87px;
+    margin-top: 17px;
+    margin-bottom: 0px;
   }
