@@ -52,7 +52,7 @@ html, body {
     margin-top: 41px;
     text-decoration: none;
     text-align: center;
-    vertical-align: middle;
+
     padding-top: 16px;
     width: 188px;
     height: 28px;
@@ -81,8 +81,9 @@ html, body {
     background-position: -5px -5px;
     display: inline-block;
     vertical-align: middle;
-    margin-left: 154px;
-    margin-top: -31px;
+    float: right;
+    margin-top: -1px;
+    margin-right: 18px;
     transition-duration: 0.5s;
   }
 
@@ -91,7 +92,7 @@ html, body {
     float: right;
     width: 15px;
     height: 14px;
-    margin-right: 19px;
+    margin-right: 18px;
     margin-top: 4px;
     background-image: url('../image/spritesheet2.png');
     background-position: -30px -5px;
@@ -99,7 +100,7 @@ html, body {
     text-align: right;
     vertical-align: middle;
     margin-left: 8px;
-    margin-top: -1px;
+    margin-top: -15px;
     transition-duration: 0.5s;
     opacity: 0;
 
