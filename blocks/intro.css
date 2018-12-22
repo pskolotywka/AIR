@@ -45,6 +45,8 @@ html, body {
   background-position: -30px -5px;
 }
 
+
+
 .intro__button {
     display: block;
     margin-top: 41px;
@@ -67,29 +69,54 @@ html, body {
     transition-duration: 0.5s;  
 }
 
-  .intro__button::after {
+
+
+
+  .intro__button::before {
     content: "";
+    position: relative;
     width: 15px;
     height: 14px;
     background-image: url('../image/spritesheet2.png');
     background-position: -5px -5px;
     display: inline-block;
     vertical-align: middle;
-    margin-left: 8px;
-    margin-top: -3px;
+    margin-left: 154px;
+    margin-top: -31px;
     transition-duration: 0.5s;
   }
 
-
-  .intro__button:hover::after {
+  .intro__button::after {
+    content: "";
+    float: right;
+    width: 15px;
+    height: 14px;
+    margin-right: 19px;
+    margin-top: 4px;
+    background-image: url('../image/spritesheet2.png');
     background-position: -30px -5px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-top: -1px;
+    transition-duration: 0.5s;
+    opacity: 0;
+
+}
+  
+  .intro__button:hover::before {
+    opacity: 0;
+  }
+  .intro__button:hover::after {
+    opacity: 1;
+
   }
 
 
   .intro__button:hover {
       background-color: #1c5bc3;
       color: white;
-      background-position: -30px -5px;
 
   }
 

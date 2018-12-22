@@ -170,30 +170,54 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: left;
-    background: url('../76.png') center right 20px no-repeat;
     background-color: #4b73b5;
     padding-right: 0px;
+    padding-top: 0px;
+    transition-duration: 0.5s;
+}
+
+.form__button:before {
+    content: "";
+    width: 15px;
+    height: 14px;
+    background-image: url('../image/spritesheet2.png');
+    background-position: -30px -5px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 22px;
+    margin-top: 0px;
+    transition-duration: 0.5s;
+}
+
+.form__button::after {
+    content: "";
+    width: 15px;
+    height: 14px;
+    position: absolute;
+    background-image: url('../image/spritesheet2.png');
+    background-position: -5px -5px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: right;
+    margin-left: 9px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.form__button:hover::after {
+    opacity: 1;
+}
+
+.form_button:hover::before {
+    opacity: 0;
 }
 
 .form__button:hover {
-    margin-left: 242px;
-    margin-top: 21px;
-    padding: 0px;
-    padding-left: 20px;
-    width: 154px;
-    height: 45px;
-    border: 0px;
-    border-radius: 3px;
     color: #4b73b5;
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: left;
-    background: url('../432.png') center right 20px no-repeat;
     background-color: white;
-    padding-right: 0px;
+
 }
 
 .answer {
