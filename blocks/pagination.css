@@ -34,7 +34,8 @@
         margin: 0px;
         margin-left: 6px;
         text-decoration: none;
-        color: gray
+        color: gray;
+        font-style: normal;
 
     }
 
@@ -43,6 +44,7 @@
         width: 50px;
         text-decoration: none;
         color: gray;
+        font-style: normal;
     }
 
     .pagitation__controls {
