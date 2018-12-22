@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1100">
+    <meta name="viewport" content="width=1200">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Экипаж</title>
     <link rel="stylesheet" href="main.css">
@@ -18,13 +18,20 @@
             </div>
                 <address class="header__contacts">
                 <a href="tel:+88000039210" class="header__contacts-phone">8 (800) 00-392-10</a>
-                <div class="header__contacts-block">
-                <button type="button" class="header__contacts-button">График работы</button>
-                </div>
+                <div class="dropdown">
+                    <button type="submit" class="header__button-link">График работы</button>
+                        <div class="dropdown__menu">
+                        <ul class="dropdown__list">
+                                <li class="dropdown__item-time">пн-вс: 09:00-20:00</li>
+                                <li class="dropdown__item">обед: 14:00-14:30</li>
+                        </ul>
+                        </div>
+                    </div>
                 </address>
             </div>
         </header>
         <div class="container container_flex">
+                <aside class="sidebar">
                 <section class="partners-social">
                         <div class="company">
                                 <h4 class="title-crew title-crew--active">Партнёры</h4>
@@ -55,63 +62,62 @@
                                     <ul class="social__list">
                                         <li class="social__item">
                                             <a href="https://vk.com" class="social__contacts-link">
-                                            <img src="vk.png" alt="pic" class="social__img">
+                                            <span alt="pic" class="social__img"></span>
                                             </a>  
                                         </li>   
                                         <li class="social__item social__item--active">
                                                 <a href="https://facebook.com" class="social__contacts-link">
-                                                <img src="fb.png" alt="pic" class="social__img-fb">
+                                                    <span class="social__img"></span>
                                                 </a>  
                                             </li>     
                                             <li class="social__item social__item--active">
                                                     <a href="https://google.com" class="social__contacts-link">
-                                                    <img src="google.png" alt="pic" class="social__img">
+                                                        <span class="social__img"></span>
                                                     </a>  
                                                 </li>     
                                                 <li class="social__item social__item--active">
                                                         <a href="https://twitter.com" class="social__contacts-link">
-                                                        <img src="twitter.png" alt="pic" class="social__img">
+                                                            <span  class="social__img"></span>
                                                         </a>  
                                                     </li>     
                                                     <li class="social__item social__item--active">
                                                             <a href="https://gmail.com" class="social__contacts-link">
-                                                            <img src="mail.png" alt="pic" class="social__img">
+                                                                <span  class="social__img"></span>
                                                             </a>  
                                                         </li>                        
                                          </ul>
                                      </div>
                         </section>
+                    </aside>
             <main class="main-page">
-                    <aside class="sidebar">
-                            <nav class="menu">
-                                    <ul class="menu__list">
-                                            <li class="menu__item">
-                                                    <div class="menu__general">
-                                                            <a href="main.html" class="menu-link">
-                                                        <span class="menu__icon"></span>
-                                                        <span class="menu__title-name ">Главная</span>
-                                                        </a>
-                                                    </div>
-                                            </li>
-                                            <li class="menu__item">
-                                                    <div class="menu__reviews">
-                                                        <a href="reviews.html" class="menu-link">
-                                                        <span class="menu__icon"></span>
-                                                        <span class="menu__title-name ">Отзывы</span>
+                        <nav class="menu">
+                                <ul class="menu__list">
+                                        <li class="menu__item">
+                                                <div class="menu__general">
+                                                        <a href="main.html" class="menu-link">
+                                                    <span class="menu__icon"></span>
+                                                    <span class="menu__title-name ">Главная</span>
                                                     </a>
-                                                    </div>
-                                            </li>
-                                            <li class="menu__item">
-                                                    <div class="menu__crew">
-                                                        <span class="menu__link_active">
-                                                        <span class="menu__icon_active"></span>
-                                                        <span class="menu__title-name menu__title-name_active">Экипаж</span>
-                                                    </span>
-                                                    </div>
-                                            </li>
-                                        </ul>
-                            </nav>
-                        </aside>
+                                                </div>
+                                        </li>
+                                        <li class="menu__item">
+                                                <div class="menu__reviews">
+                                                    <a href="reviews.html" class="menu-link">
+                                                    <span class="menu__icon"></span>
+                                                    <span class="menu__title-name ">Отзывы</span>
+                                                </a>
+                                                </div>
+                                        </li>
+                                        <li class="menu__item">
+                                                <div class="menu__crew">
+                                                    <span class="menu__link_active">
+                                                    <span class="menu__icon_active"></span>
+                                                    <span class="menu__title-name menu__title-name_active">Экипаж</span>
+                                                </span>
+                                                </div>
+                                        </li>
+                                    </ul>
+                        </nav>
                     <div class="team">
                         <h1 class="title-crew">Экипаж</h1>
                         <ul class="team__list">

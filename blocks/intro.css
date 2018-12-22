@@ -30,6 +30,21 @@ html, body {
     
 }
 
+
+.ic1on-intro {
+  width: 15px;
+  height: 14px;
+  background: url('../image/spritesheet2.png') no-repeat cover;
+  background-size: 15px 14px;
+  background-position: -5px -5px;
+  margin-left: 157px;
+  margin-top: -15px;
+}
+
+.ico1n-intro:hover {
+  background-position: -30px -5px;
+}
+
 .intro__button {
     display: block;
     margin-top: 41px;
@@ -43,28 +58,42 @@ html, body {
     border-radius: 3px;
     text-align: left;
     padding-left: 20px;
-    background: url('../635.png') no-repeat center right 18px;
     color: #1c5bc4;
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.4px;
+    transition-duration: 0.5s;  
+}
+
+  .intro__button::after {
+    content: "";
+    width: 15px;
+    height: 14px;
+    background-image: url('../image/spritesheet2.png');
+    background-position: -5px -5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-top: -3px;
     transition-duration: 0.5s;
+  }
 
-    
-}
 
-.intro__button:hover {
-    display: block;
-    border: 1px solid #1c5bc3;
-    background-color: #1c5bc3;
-    background-image: url('../76.png');
-    background-position: center right 18px;
-    background-repeat:  no-repeat;
-    color: white;
-   =
-}
+  .intro__button:hover::after {
+    background-position: -30px -5px;
+  }
+
+
+  .intro__button:hover {
+      background-color: #1c5bc3;
+      color: white;
+      background-position: -30px -5px;
+
+  }
+
+
 
 
 @keyframes intro {

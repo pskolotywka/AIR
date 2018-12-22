@@ -1,7 +1,7 @@
 
 .sidebar {
     display: flex;
-    width: 550px;
+    width: 283px;
     vertical-align: top;
 }
 
@@ -37,12 +37,12 @@ span {
 
 .menu__item:first-child .menu__icon {
     margin-top: 24px;
-    margin-left: 22px;
+    margin-left: 21px;
     background-position: -95px -5px;
 }
 .menu__item:first-child .menu__icon_active {
     margin-top: 24px;
-    margin-left: 26px;
+    margin-left: 21px;
     background-position: -5px -5px;
 }
 

@@ -1,15 +1,15 @@
 
 main {
-    width: 886px;
+    width: 919px;
     display: inline-block;
-    margin-right: 37px;
+    overflow: hidden;
 }
 
 .main-img {
     position: relative;
     margin: 0px;
     margin-top: 6px;
-    margin-left: 26px;
+    margin-left: 21px;
 
 }
 
