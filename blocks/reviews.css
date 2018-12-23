@@ -35,7 +35,7 @@
     margin: 0px;
     padding: 0px;
     margin-top: 16px;
-    margin-bottom: 29px;
+    margin-bottom: 25px;
     opacity: .2;
     margin-left: 25px;
 }
@@ -94,6 +94,5 @@
     background-image: url('../image/63.png');
     background-repeat: no-repeat;
     margin-left: 26px;
-    padding-left: 174px;
     margin-bottom: 15px;
 }
