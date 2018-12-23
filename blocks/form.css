@@ -180,8 +180,8 @@
     content: "";
     width: 15px;
     height: 14px;
-    background-image: url('../image/spritesheet2.png');
-    background-position: -30px -5px;
+    background-image: url('../image/spritesheet.png');
+    background-position: -177px -5px;
     background-repeat: no-repeat;
     position: relative;
     display: inline-block;
@@ -196,8 +196,8 @@
     width: 15px;
     height: 14px;
     position: absolute;
-    background-image: url('../image/spritesheet2.png');
-    background-position: -5px -5px;
+    background-image: url('../image/spritesheet.png');
+    background-position: -152px -5px;
     background-repeat: no-repeat;
     display: inline-block;
     float: right;

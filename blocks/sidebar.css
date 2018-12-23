@@ -1,6 +1,7 @@
 
 .sidebar {
     display: flex;
+        flex-direction: column;
     width: 283px;
     vertical-align: top;
 }
@@ -49,7 +50,7 @@ span {
 .menu__item:nth-child(2) .menu__icon {
     margin-top: 25px;
     margin-left: 91px;
-    background-position: -65px -5px;
+    background-position: -32px -5px;
 }
 .menu__item:nth-child(2) .menu__icon_active {
     margin-top: 25px;
@@ -60,12 +61,12 @@ span {
 .menu__item:last-child .menu__icon {
     margin-top: 26px;
     margin-left: 94px;
-    background-position: -32px -5px;
+    background-position: -62px -5px;
 }
 .menu__item:last-child .menu__icon_active {
     margin-top: 26px;
     margin-left: 94px;
-    background-position: -152px -5px;
+    background-position: -202px -5px;
 }
 
 .menu__icon:after {
@@ -90,7 +91,7 @@ span {
 }
 
 .menu__item:last-child .menu__icon:after {
-    background-position: -152px -5px;
+    background-position: -202px -5px;
 
 }
 

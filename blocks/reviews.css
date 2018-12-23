@@ -37,6 +37,7 @@
     margin-top: 16px;
     margin-bottom: 29px;
     opacity: .2;
+    margin-left: 25px;
 }
 
 .reviews__description {
@@ -47,6 +48,7 @@
     margin: 0px;
     vertical-align: top;
     margin-left: 18px;
+    margin-bottom: 31px;
     
 
 }
@@ -83,4 +85,15 @@
     font-weight: 300;
     line-height: 30px;
     margin-top: 9px;
+}
+
+.reviews__avatar--active {
+    display: inline-block;
+    height: 160px;
+    width: 171px;
+    background-image: url('../image/63.png');
+    background-repeat: no-repeat;
+    margin-left: 26px;
+    padding-left: 174px;
+    margin-bottom: 15px;
 }

@@ -31,20 +31,6 @@ html, body {
 }
 
 
-.ic1on-intro {
-  width: 15px;
-  height: 14px;
-  background: url('../image/spritesheet2.png') no-repeat cover;
-  background-size: 15px 14px;
-  background-position: -5px -5px;
-  margin-left: 157px;
-  margin-top: -15px;
-}
-
-.ico1n-intro:hover {
-  background-position: -30px -5px;
-}
-
 
 
 .intro__button {
@@ -77,8 +63,8 @@ html, body {
     position: relative;
     width: 15px;
     height: 14px;
-    background-image: url('../image/spritesheet2.png');
-    background-position: -5px -5px;
+    background-image: url('../image/spritesheet.png');
+    background-position: -152px -5px;
     display: inline-block;
     vertical-align: middle;
     float: right;
@@ -94,8 +80,8 @@ html, body {
     height: 14px;
     margin-right: 18px;
     margin-top: 4px;
-    background-image: url('../image/spritesheet2.png');
-    background-position: -30px -5px;
+    background-image: url('../image/spritesheet.png');
+    background-position: -177px -5px;
     display: inline-block;
     text-align: right;
     vertical-align: middle;

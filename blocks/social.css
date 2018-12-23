@@ -9,8 +9,8 @@
 }
 
 .social--reviews {
-    margin-left: 63px;
-    margin-top: 32px;
+    margin-left: 71px;
+    margin-top: 9px;
 }
 
 .social__contacts-link {
@@ -42,28 +42,29 @@
     justify-content: center;
     align-items: center;
     margin-left: 12px;
-    background-image: url('../image/spritesheet2.png');
+    text-align: center;
+    background-image: url('../image/spritesheet.png');
 
 }
 
 .social__item:first-child {
-    background-position: -139px -5px;
+    background-position: -319px -5px;
 }
 
 .social__item:nth-child(2) {
-    background-position: -55px -5px;
+    background-position: -235px -5px;
 }
 
 .social__item:nth-child(3) {
-    background-position: -71px -5px;
+    background-position: -251px -5px;
 }
 
 .social__item:nth-child(4) {
-    background-position: -118px -5px;
+    background-position: -298px -5px;
 }
 
 .social__item:last-child {
-    background-position: -96px -5px;
+    background-position: -276px -5px;
 }
 
 
