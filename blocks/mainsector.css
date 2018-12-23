@@ -53,3 +53,6 @@ main {
     color: white;
 }
 
+.main-page {
+    overflow: hidden;
+}
