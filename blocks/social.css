@@ -68,6 +68,11 @@
 }
 
 
+.social__item:hover {
+    transform: scale(1.1)
+}
+
+
 .social__list {
     display: inline-block;
     margin-top: 5px;

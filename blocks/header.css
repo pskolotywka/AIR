@@ -96,7 +96,7 @@
 
 .dropdown:hover .dropdown__menu {
     
-    display: inline-block;
+    display: block;
 
 
 }
